@@ -1,0 +1,16 @@
+ps5p1
+#inputphase
+QuantityofWidgets = int(input("Enter Quantity of Widgets: "))
+#processphase
+if QuantityofWidgets > 10000:
+    Wprice = 10
+elif QuantityofWidgets >= 5000:
+    Wprice = 20
+else: Wprice = 30
+ExtendedPrice = QuantityofWidgets * Wprice
+Tax = ExtendedPrice * 0.07
+Total = ExtendedPrice + Tax
+#outputphase
+print("Extended Price: ",ExtendedPrice)
+print("Tax Amount: ", Tax)
+print("Total Amount: ", Total)
