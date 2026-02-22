@@ -1,0 +1,17 @@
+ps5p3
+#inputphase
+PrincipleAmount = float(input("Enter the principal amount: "))  
+YearsforMaturity =  int(input("Enter the number years to Maturity: "))
+#processphase
+if PrincipleAmount > 100000 and YearsforMaturity == 5: 
+   InterestRate = 0.06
+elif 50000 <= PrincipleAmount <= 100000 and YearsforMaturity == 10:
+   InterestRate = 0.05
+elif 50000 <= PrincipleAmount <= 100000 and YearsforMaturity == 5:
+ InterestRate = 0.04
+else: InterestRate = 0.02
+FirstYrInterest =  PrincipleAmount * InterestRate
+#Outputphase
+print("Principle Amount: ", PrincipleAmount)
+print("Interest Rate: ", InterestRate)
+print("First Year Interest: ", FirstYrInterest)
