@@ -1,0 +1,17 @@
+ps5p4
+#inputphase
+NumberofTickets = int(input("Enter the number of tickets: "))  
+#processphase
+if NumberofTickets >= 25: 
+   PricePerTicket = 50
+elif 10 <= NumberofTickets <= 24: 
+   PricePerTicket = 60
+elif 5 <=  NumberofTickets <= 9: 
+   PricePerTicket = 70
+else: PricePerTicket = 75
+TotalCost = NumberofTickets * PricePerTicket
+#outputphase
+print("Number of Tickets: ", NumberofTickets)
+print("Price Per Ticket: ", PricePerTicket)
+print("Total Cost: ", TotalCost)
+
