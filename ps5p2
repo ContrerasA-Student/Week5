@@ -1,0 +1,17 @@
+Ps5p2
+#inputphase
+PartNumber = input("Enter Part Number: ")
+QuantityofParts = int(input("Enter Quantity of Parts: "))
+#processphase
+if PartNumber == "10" or PartNumber == "55":
+    UnitPrice = 1
+elif PartNumber == "99":
+    UnitPrice = 2
+elif PartNumber == "80" or PartNumber == "70":
+    UnitPrice = 3
+else: UnitPrice = 5
+TotalCost = QuantityofParts * UnitPrice
+#outputphase
+print("Part Number: ", PartNumber)
+print("Cost per Unit: ", UnitPrice)
+print("Total Cost: ", TotalCost)
