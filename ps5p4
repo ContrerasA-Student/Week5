@@ -1,4 +1,5 @@
-ps5p4
+Armando Contreras 2/21/25
+#ps5p4
 #inputphase
 NumberofTickets = int(input("Enter the number of tickets: "))  
 #processphase
