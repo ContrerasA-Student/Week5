@@ -1,4 +1,5 @@
-ps5p5
+Armando Contreras 2/21/25
+#ps5p5
 #inputphase
 lname = input("Enter Employee Last Name: ")
 salary = float(input("Enter Employee Salary: "))
