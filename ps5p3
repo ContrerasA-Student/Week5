@@ -1,4 +1,5 @@
-ps5p3
+Armando Contreras 2/21/25
+#ps5p3
 #inputphase
 PrincipleAmount = float(input("Enter the principal amount: "))  
 YearsforMaturity =  int(input("Enter the number years to Maturity: "))
