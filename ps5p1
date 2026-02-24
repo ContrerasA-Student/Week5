@@ -1,4 +1,5 @@
-ps5p1
+Armando Contreras 2/21/25
+#ps5p1
 #inputphase
 QuantityofWidgets = int(input("Enter Quantity of Widgets: "))
 #processphase
