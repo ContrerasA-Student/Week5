@@ -1,4 +1,5 @@
-Ps5p2
+Armando Contreras 2/21/25
+#ps5p2
 #inputphase
 PartNumber = input("Enter Part Number: ")
 QuantityofParts = int(input("Enter Quantity of Parts: "))
